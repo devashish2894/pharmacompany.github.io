@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+hr{
+    width: 190px;
+    margin-left: 25px;
+    
+}
+
+.main{
+    width: 100%;
+    height: 62vh;
+    background-image: url('0000.png');
+    background-size: cover;
+}
+.main.active1  {
+    background-image: url('Comp\ 1.gif');
+}
+.header{
+    width: 100%;
+    height:3rem;
+    background-color: azure;
+    display: flex;
+    
+    align-items: center;
+}
+.logo{
+   margin-right: auto;
+   margin-left: 2rem;
+    width: 12rem;
+    font-size: 1.5rem;
+   
+}
+.tag{
+    height: 5rem;
+    width: 4rem;
+    background-color: rgb(7, 150, 90);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 2rem;
+    border-radius: 0 0px 10px 10px;
+    
+}
+.tag h1{
+    font-size: 2rem;
+}
+.header nav{
+   
+   
+    
+  
+
+}
+.header nav ul{
+   margin-left: 3rem;
+}
+.header nav ul li{
+    float: left;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+    list-style: none;
+
+}
+button{
+    width: 6rem;
+    height: 2rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+.bpanel{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onb{
+    margin-top: 2rem;
+    padding: 5px;
+    
+}
+.onb h2{
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.sli img{
+    height:5rem;
+    border-radius: 50%;
+    border:3px solid green;
+    position: relative;
+    top:25px;
+    left:56px;
+    
+}
+.para{
+    width: 197px;
+    height:100px;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border:1px solid green;
+
+    
+}
+.icons{
+    width:110px ;
+    height: 29px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -15px;
+    left:40px;
+
+}
+.icons ul li{
+    float: left;
+    margin-left: 23px;
+    margin-right:5px;
+    list-style: none;
+    padding-top: 6px;
+}
+
+
+.message{
+    width:250px;
+    height:500px;
+    background-color: rgba(3, 3, 3,0.8);
+    color: white;
+    text-transform: capitalize;
+    
+   border-radius: 10px;
+
+    
+}
+
+.message h2{
+    text-align: center;
+
+}
+
+    
+
+.chat{
+    width:190px ;
+    height: 40px;
+    background-color: rgb(80, 114, 11);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 18px;
+    margin-left: 9px;
+}
+.chat p{
+    font-size: 14px;
+}
+.type{
+    position: relative;
+    top:359px;
+    left:33px;
+   
+}
+   .type input{
+    border-radius: 20px;
+    height: 38px;
+    width: 184px;
+    padding-left:10px;
+   }
+
+   .type i{
+    position: absolute;
+  color: blue;
+  right: 78px;
+  top: 10px;
+
+   }
+   span{
+       float: right;
+       margin-right: 10px;
+   }
+
+   .secb{
+       width: 100%;
+       height:37vh;
+       
+       margin-top: 15px;
+       padding: 5px;
+   }
+   .secb h2{
+       text-align: center;
+       text-transform: capitalize;
+       margin-bottom: 10px;
+
+   }
+
+   .contain1{
+       width: 100%;
+      
+      
+       padding: 5px;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+   .med{
+       height: 152px;
+       
+   }
+   
+   .med img{
+       height:149px;
+   }
+   .bod{
+       width: 115px;
+       height:67px;
+       
+       text-align: center;
+       margin-top: 50px;
+       
+       position: relative;
+       bottom:143px;
+       left: 2px;
+   }
+   .two{
+       height: 25px;
+       width: 73px;
+       margin: 3px auto;
+       border-radius: 10px;
+       background-color: rgb(21, 35, 54);
+       color: white;
+   }
+   .two:hover{
+    background-color: rgb(233, 233, 233);
+    color: rgb(8, 8, 8);
+
+   }
+   .bod p{
+       font-size: 24px;
+   }
+   .sp2{
+       margin-right: 2px;
+       margin-top: 5px;
+       color: black;
+   }
+   .sp2 a{
+       text-decoration: none;
+       color: black;
+   }
+   .phstrip{
+       width: 100%;
+       height: 42vh;
+       
+       padding:5px;
+       margin: 10px 0;
+       text-align: center;
+   }
+   .phcon{
+       height: 35vh;
+       width: 100%;
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+
+   }
+   .phcon ul li{
+       float: left;
+       margin-right: 3rem;
+       list-style: none;
+       
+   }
+   .phcon img{
+       height: 100px;
+       border-radius: 50%;
+       border: 1px solid rgb(136, 136, 136);
+   }
+   .phcon p{
+       text-align:center ;
+   }
+   .big{
+       width: 9rem;
+       height: 2rem;
+       background-color:rgb(7, 150, 90); 
+       color: white;
+       border-radius: 20px;
+       cursor: pointer;
+   }
+
+.dis{
+    width: 100%;
+    height: 80vh;
+    margin-top: 15px;
+    
+    padding: 3px;
+}
+.dis h2{
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.row{
+    width: 100%;
+    height: 75vh;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col1{
+    flex-basis: 40%;
+    margin-left: 50px;
+    
+    text-transform: capitalize;
+    position: relative;
+    
+}
+.col1 h1{
+    font-size: 42px;
+
+}
+.col1 h3{
+    font-weight: 100;
+    margin: 30px 0;
+}
+
+.col1::after{
+    content: "";
+    width: 10px;
+    height: 99%;
+    background: linear-gradient(360deg, rgba(238,238,238,1) 0%, rgba(25,121,9,1) 100%);
+    position: absolute;
+    top:3px;
+    left:-29px;
+}
+.col2{
+    flex-basis: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.pill{
+    width: 85%;
+}
+   .colorbox{
+       right:0;
+       top:0;
+       position:absolute;
+       background: linear-gradient(90deg, rgba(238,238,238,1) 55%, rgba(25,121,9,0.785049053801208) 100%);
+       height: 100%;
+       width: 80%;
+       z-index: -1;
+   }
+   .foot{
+       width: 100%;
+       height:30vh;
+       background-color: rgba(15, 15, 15,0.8);
+       margin-top: 15px;
+       padding: 8px;
+   }
+   .row1{
+       width: 100%;
+       height: 100%;
+       
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+   }
+   .cola{
+       flex-basis: 50%;
+       
+       color: white;
+       
+   }
+   .cola h1{
+       font-size: 30px;
+       text-align: center;
+       margin: 20px 0;
+   }
+   .cola ul{
+       margin-left: 45px;
+
+   }
+   .cola ul li {
+       float: left;
+       margin-left: 81px;
+       list-style: none;
+   }
+   .colb{
+       flex-basis: 50%;
+       
+   }
+   .colb h2{
+       text-align: center;
+       margin: 20px 0;
+       color: white;
+   }
+
+   .feed{
+       
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 30px;
+
+   }
+   .feed input{
+       width: 239px;
+       height: 31px;
+       border-radius: 20px 0 0 20px;
+       padding-left:5px ;
+       border: none;
+       
+   }
+   .feed button{
+       background-color: rgb(7, 150, 90);
+       color: white; 
+       border-radius: 0 20px 20px 0;
+       position: relative;
+       left: -48px;
+       top:1px;
+       height: 34px;
+   }
+   .btnplate{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 25px 0 15px 23px;
+   }
+   .searchmed{
+      
+       height: 50px;
+       position: relative;
+   }
+   .searchmed .inp{
+       background-color: white;
+      
+       font-size: 16px;
+       padding: 11px;
+       height: 50px;
+       width: 50px;
+       transition: width 0.3s ease;
+       margin: 0;
+       border-radius: 23px 23px 23px 23px
+   }
+   .medbut{
+       font-size:24px;
+       background-color:rgb(7, 150, 90); 
+       color:white;
+       position: absolute;
+       top:0;
+       left:0;
+       height: 50px;
+       width: 50px;
+       margin: 0;
+       transition: 0.3s ease;
+       border-radius: 23px 23px 23px 23px;
+
+    }
+
+  .searchmed.active3 .inp{
+        width:251px;
+        border-radius: 23px 0px 0px 23px;
+        
+
+    }
+    .searchmed.active3 .medbut{
+        transform: translateX(249px);
+        border-radius: 0 23px 23px 0;
+        
+    }
+    .conone{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 159px;
+        left: 0;
+        transition: 0.3s ease;
+        transform: translateY(200%);
+    }
+
+    .conone.active2{
+        transform: translateY(0%);
+        transition: 0.8s ease;
+    }
